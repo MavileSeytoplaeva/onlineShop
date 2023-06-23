@@ -1,6 +1,5 @@
 package pro.sky.onlineshop.service;
 
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 import pro.sky.onlineshop.interfaces.ConsumerService;
 import pro.sky.onlineshop.model.ShoppingCart;
@@ -9,8 +8,6 @@ import java.util.Set;
 import java.util.TreeSet;
 
 @Service
-@Scope (scopeName = "session")
-
 
 public class ConsumerServiceImpl implements ConsumerService {
 
