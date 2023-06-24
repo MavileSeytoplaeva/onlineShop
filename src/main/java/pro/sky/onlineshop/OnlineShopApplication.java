@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class OnlineShopApplication {
 
     public static void main(String[] args) {
+        System.setProperty("server.servlry.context-path", "/store");
+
         SpringApplication.run(OnlineShopApplication.class, args);
     }
 
